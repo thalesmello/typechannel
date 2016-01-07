@@ -2,9 +2,8 @@
   "name": "typechannel",
   "version": "0.0.1",
   "description": "A TypeScript implementation of channels to have CSP-like programming using async and await.",
-  "main": "index.js",
-  "typings": "bin/src/typechannel.d.ts",
   "main": "bin/src/typechannel",
+  "typings": "bin/src/typechannel.d.ts",
   "scripts": {
     "test": "gulp test"
   },
@@ -18,10 +17,11 @@
   "devDependencies": {
     "gulp": "^3.9.0",
     "gulp-jasmine": "^2.2.1",
+    "gulp-notify": "^2.2.0",
     "gulp-typescript": "^2.10.0",
     "jasmine": "^2.4.1",
-    "typescript": "^1.7.5",
+    "merge2": "^0.3.6",
     "tsd": "^0.6.5",
-    "merge2": "^0.3.6"
+    "typescript": "^1.7.5"
   }
 }

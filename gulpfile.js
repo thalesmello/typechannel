@@ -23,7 +23,7 @@ gulp.task('test', ['build', 'build_test'], () => {
         .pipe(notify('done'));
 });
 
-var specProject = ts.createProject(tsOpts);
+var specProject = ts.createProject("tsconfig.json");
 
 gulp.task('build_test', () => {
     return gulp.src('spec/**/*_spec.ts')
