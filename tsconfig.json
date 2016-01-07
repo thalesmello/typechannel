@@ -1,8 +1,21 @@
 {
-	"compilerOptions": {
-        "target": "es5",
-        "module": "commonjs",
-        "declaration": true,
-        "noEmitOnError": true
-    }
+   "compilerOptions": {
+      "target": "es5",
+      "module": "commonjs",
+      "declaration": true,
+      "noEmitOnError": true,
+      "outDir": "bin"
+   },
+   "filesGlob": [
+      "./src/**/*.ts",
+      "./spec/**/*_spec.ts",
+      "!./node_modules/**/*.ts"
+   ],
+   "files": [
+      "./src/typechannel.ts",
+      "./spec/typechannel_spec.ts"
+   ],
+   "atom": {
+      "rewriteTsconfig": true
+   }
 }

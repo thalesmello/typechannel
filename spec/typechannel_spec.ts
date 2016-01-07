@@ -1,5 +1,5 @@
 /// <reference path="../typings/tsd.d.ts" />
 
-import channel from '../src/typechannel';
+import channel = require("../src/typechannel");
 
 console.log(channel);
