@@ -2,4 +2,4 @@
 
 import channel from '../src/typechannel';
 
-channel();
+console.log(channel);

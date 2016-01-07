@@ -1,4 +1,4 @@
-function default_1() {
-    console.log("Hello World");
+function channel() {
+    console.log("Hello world");
 }
-exports["default"] = default_1;
+module.exports = channel;

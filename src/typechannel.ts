@@ -1,3 +1,5 @@
-export default function() {
-    console.log("Hello World");
+export = channel;
+
+function channel() {
+    console.log("Hello world")
 }
