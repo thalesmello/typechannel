@@ -1,6 +1,8 @@
 {
-    "module": "commonjs",
-    "target": "es6",
-    "declaration": true,
-    "noEmitOnError": true
+	"compilerOptions": {
+        "target": "es6",
+        "module": "commonjs",
+        "declaration": true,
+        "noEmitOnError": true
+    }
 }
