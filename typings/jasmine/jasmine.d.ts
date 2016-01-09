@@ -7,6 +7,7 @@
 // For ddescribe / iit use : https://github.com/borisyankov/DefinitelyTyped/blob/master/karma-jasmine/karma-jasmine.d.ts
 
 declare function describe(description: string, specDefinitions: () => void): void;
+declare function describe(description: string, specDefinitions: (done: () => void) => void): void;
 declare function fdescribe(description: string, specDefinitions: () => void): void;
 declare function xdescribe(description: string, specDefinitions: () => void): void;
 

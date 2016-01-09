@@ -1,15 +1,15 @@
 {
    "compilerOptions": {
-      "target": "es5",
+      "target": "es6",
       "module": "commonjs",
       "declaration": true,
-      "noEmitOnError": true,
-      "outDir": "bin"
+      "noEmitOnError": true
    },
    "filesGlob": [
       "./src/**/*.ts",
       "./spec/**/*_spec.ts",
-      "!./node_modules/**/*.ts"
+      "!./node_modules/**/*.ts",
+      "!./bin/**/*.ts"
    ],
    "files": [
       "./src/typechannel.ts",
